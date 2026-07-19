@@ -21,6 +21,7 @@ export interface Agent {
 
 export interface MissionItem {
   id: string;
+  userId?: string;
   title: string;
   duration: string;
   category: 'assignment' | 'coding' | 'revision' | 'interview' | 'wellness';
@@ -48,6 +49,7 @@ export interface DigitalTwinProfile {
 
 export interface DocumentItem {
   id: string;
+  userId?: string;
   title: string;
   type: 'pdf' | 'ppt' | 'docx' | 'image' | 'audio';
   size: string;
