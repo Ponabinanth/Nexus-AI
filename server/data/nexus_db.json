@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "name": "Root Administrator",
+      "email": "admin@nexus.ai",
+      "password": "admin2026!secret",
+      "role": "System Administrator",
+      "avatar": "🛡️",
+      "status": "ACTIVE",
+      "createdAt": "2026-07-19T15:44:19.938Z"
+    },
+    {
+      "id": "usr-1784476060499",
+      "name": "Abinanth",
+      "email": "abinanthmuthu2006@gmail.com",
+      "password": "Abinanth123@#",
+      "role": "Computer Science Student",
+      "avatar": "👩‍🎓",
+      "status": "ACTIVE",
+      "createdAt": "2026-07-19T15:47:40.499Z"
+    }
+  ],
+  "profiles": {
+    "usr-admin-1": {
+      "id": "usr-admin-1",
+      "name": "Root Administrator",
+      "email": "admin@nexus.ai",
+      "avatar": "🛡️",
+      "targetRole": "System Administrator",
+      "focusScore": 98,
+      "streakDays": 14,
+      "weeklyGoalHours": 25,
+      "learningVelocity": 1.45,
+      "weakTopics": [
+        "Distributed Systems",
+        "Dynamic Programming"
+      ],
+      "strongTopics": [
+        "Java 21",
+        "Spring Boot",
+        "SQL Optimization"
+      ]
+    },
+    "usr-1784476060499": {
+      "id": "usr-1784476060499",
+      "name": "Abinanth",
+      "email": "abinanthmuthu2006@gmail.com",
+      "avatar": "👩‍🎓",
+      "targetRole": "Computer Science Student",
+      "focusScore": 90,
+      "streakDays": 1,
+      "weeklyGoalHours": 20,
+      "learningVelocity": 1,
+      "weakTopics": [],
+      "strongTopics": []
+    }
+  },
+  "missions": [],
+  "documents": [],
+  "nodes": [],
+  "quizzes": [],
+  "codeProjects": [],
+  "systemLogs": []
+}
